@@ -151,174 +151,130 @@
         Internships &amp; Experiences
     </div>
     <br>
-    <div class='container-fluid' align="center">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="cern-intern-box wow fadeInDown">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class='intern-panel-image'>
-                                <img src="img/intern/esri.png" alt='Esri' class='intern-img img-responsive' style="height: 88px; width: 240px; margin-top: 40px; padding-left: 15px;">
-                            </div>
-                        </div>
-                        <div class="col-sm-8" align="left">
-                            <div class="intern-panel-body">
-                                <div class="intern-box-heading" align="center">
-                                    <span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><a href="https://www.esri.com/"><strong>Esri</strong></a></span>
-                                    <br>
-                                    <div class="col-sm-6 intern-post"><strong>Software Engineer Intern</strong></div>
-                                    <div class="col-sm-6 intern-time">May'25 - Aug'25</div>
+    <div class='container-fluid' style="max-width: 1200px;">
+        <!-- Timeline Container -->
+        <div class="timeline-container" style="position: relative; padding: 20px 0;">
+            <!-- Timeline Line -->
+            <div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: linear-gradient(to bottom, #3aacc7, #1b6d85); transform: translateX(-50%);"></div>
+            
+            <!-- Esri Experience -->
+            <div class="timeline-item wow fadeInLeft" style="position: relative; margin-bottom: 60px;">
+                <div class="timeline-dot" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: #3aacc7; border-radius: 50%; transform: translateX(-50%); z-index: 2;"></div>
+                <div class="row">
+                    <div class="col-md-5" style="text-align: right; padding-right: 40px;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-left: 5px solid #3aacc7;">
+                            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                <img src="img/intern/esri.png" alt='Esri' style="width: 60px; height: 60px; object-fit: contain; margin-right: 15px;">
+                                <div>
+                                    <h4 style="margin: 0; color: #333;"><a href="https://www.esri.com/" style="color: #3aacc7; text-decoration: none;">Esri</a></h4>
+                                    <p style="margin: 5px 0; color: #666; font-weight: 600;">Software Engineer Intern</p>
+                                    <span style="color: #999; font-size: 14px;">May 2025 - Aug 2025</span>
                                 </div>
-                                <br><br>
-                                <ul>
-                                    <li>Decreased Kubernetes cluster deployment time from 2+ hours to under 10 minutes using optimized Ansible playbooks, saving 45 minutes per deployment on average.</li>
-                                    <li>Integrated CyberArk to dynamically fetch and manage TLS certs and secrets; securely injected TLS assets into the cluster via Kubernetes Secrets and ConfigMaps.</li>
-                                    <li>Optimized Kubernetes cluster architecture by configuring HAProxy on a dedicated node to serve dual roles—load balancing control plane traffic and acting as a TLS-terminating reverse proxy—reducing infrastructure footprint by 20 percent.</li>
-                                    <li>Led the design and implementation of an automated disaster recovery system for Jenkins pipelines, coordinating with senior engineers to ensure cross-cluster consistency.</li>
-                                    <li>Achieved full cluster recovery within minutes, ensuring business continuity and restoring production systems to pre-failure state with minimal downtime.</li>
-                                </ul>
+                            </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.6;">
+                                <li>Decreased Kubernetes cluster deployment time from 2+ hours to under 10 minutes using optimized Ansible playbooks</li>
+                                <li>Integrated CyberArk to dynamically fetch and manage TLS certs and secrets via Kubernetes Secrets</li>
+                                <li>Optimized Kubernetes cluster architecture with HAProxy, reducing infrastructure footprint by 20%</li>
+                                <li>Led design and implementation of automated disaster recovery system for Jenkins pipelines</li>
+                                <li>Achieved full cluster recovery within minutes, ensuring business continuity</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5" style="padding-left: 40px;">
+                        <div style="text-align: left; padding-top: 30px;">
+                            <h5 style="color: #3aacc7; font-weight: 600;">Key Technologies</h5>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px;">
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">Kubernetes</span>
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">Ansible</span>
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">CyberArk</span>
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">HAProxy</span>
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">Jenkins</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="cern-intern-box wow fadeInDown">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class='intern-panel-image'>
-                                <img src="img/intern/nagarro.png" alt='Nagarro' class='intern-img img-responsive' style="height: 88px; width: 240px; margin-top: 40px; padding-left: 15px;">
-                            </div>
-                        </div>
-                        <div class="col-sm-8" align="left">
-                            <div class="intern-panel-body">
-                                <div class="intern-box-heading" align="center">
-                                    <span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><a href="https://www.nagarro.com/en"><strong>Nagarro</strong></a></span>
-                                    <br>
-                                    <div class="col-sm-6 intern-post"><strong>Trainee</strong></div>
-                                    <div class="col-sm-6 intern-time">Jul'22 - Oct'22</div>
-                                </div>
-                                <br><br>
-                                <ul>
-                                    <li>Completed a comprehensive training program to become proficient in technologies such as React.js, Node.js, Angular, and more. </li>
-                                    <li>Gained hands-on experience by actively participating in the development of various projects utilizing these technologies.</li>
-                                    <li>Collaborated with experienced professionals to design, develop, and deploy projects, while continually learning and improving technical skills.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="intern-box wow fadeInLeft">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class='intern-panel-image'>
-                                <img src="img/intern/cloudsufi.jpg" alt='Cloudsufi ' class='intern-img'>
-                            </div>
-                        </div>
-                        <div class="col-sm-8" align="left">
-                            <div class="intern-panel-body">
-                                <div class="intern-box-heading" align="center">
-                                    <span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><strong><a href="https://www.cloudsufi.com/">Cloudsufi Pvt. Ltd.</a></strong></span>
-                                    <br>
-                                    <div class="col-sm-6 intern-post">
-                                        <strong>Java Developer Intern</strong>
-                                    </div>
-                                    <div class="col-sm-6 intern-time">Feb'22 - July'22</div>
-                                </div>
-                                <br><br>
-                                <ul>
-                                    <li>Developed comprehensive test suites using JUnit and Mockito to ensure the reliability of a critical Google-powered integration service.</li>
-                                    <li>Implemented robust exception-handling mechanisms throughout the project, ensuring graceful handling of errors and exceptional situations, ultimately enhancing user experience and system stability.</li>
-                                    <li>Assisted cross-functional teams in designing and implementing data integration solutions, enabling seamless data flow and enhancing data-driven decision-making capabilities</li>
-                                    <li>Co-ordinated with a group of Interns and senior web developers working in parallel on the project.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="intern-box wow fadeInLeft">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class='intern-panel-image'>
-                                <img src="img/intern/cyberflax.jpg" alt='CyberFlax' class='intern-img img-responsive'>
-                            </div>
-                        </div>
-                        <div class="col-sm-8" align="left">
-                            <div class="intern-panel-body">
-                                <div class="intern-box-heading" align="center">
-                                    <span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><strong>CyberFlax Pvt. Ltd.</strong></a></span>
-                                    <br>
-                                    <div class="col-sm-6 intern-post"><strong>Machine Learning Developer Intern</strong></div>
-                                    <div class="col-sm-6 intern-time">Jun'21 - Aug'21</div>
-                                </div>
-                                <ul>
-                                    <li>Conducted data extraction from Portable Executable files, facilitating the development of advanced machine learning models.</li>
-                                    <li>Applied diverse machine learning algorithms to classify and detect malware within windows software.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="intern-box wow fadeInRight">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class='intern-panel-image'>
-                                <img src="img/intern/sch.png" alt='Schneider Electric' class='intern-img img-responsive' style="width: 210px; padding-left: 15px">
-                            </div>
-                        </div>
-                        <div class="col-sm-8" align="left">
-                            <div class="intern-panel-body">
-                                <div class="intern-box-heading" align="center">
-                                    <span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><a href="https://www.se.com/in/en/"></a><strong>Schneider Electric</strong></a></span>
-                                    <br>
-                                    <div class="col-sm-6 intern-post"><strong>Summer Intern</strong></div>
-                                    <div class="col-sm-6 intern-time">July'21- Sept'21</div>
-                                </div>
-                                <ul>
-                                    <li>Leveraged Python for in-depth analysis and visualization of motor relay data.</li>
-                                    <li>Crafted interactive dashboards using Tableau to facilitate data exploration and understanding</li>
-                                    <li>Developed a machine learning model for predictive supply chain analysis.</li>
-                                    <li>Conducted comparative analyses to assess the company's performance against competitors based on the analyzed data</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="intern-box wow fadeInRight">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class='intern-panel-image'>
-                                <img src="img/intern/nss.png" alt='National Service Scheme' class='intern-img img-responsive' style="height: 100%; padding-left: 15px;">
+            <!-- Nagarro Experience -->
+            <div class="timeline-item wow fadeInRight" style="position: relative; margin-bottom: 60px;">
+                <div class="timeline-dot" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: #3aacc7; border-radius: 50%; transform: translateX(-50%); z-index: 2;"></div>
+                <div class="row">
+                    <div class="col-md-5" style="padding-right: 40px;">
+                        <div style="text-align: right; padding-top: 30px;">
+                            <h5 style="color: #3aacc7; font-weight: 600;">Key Technologies</h5>
+                            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; justify-content: flex-end;">
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">React.js</span>
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">Node.js</span>
+                                <span style="background: #e8f4f8; color: #3aacc7; padding: 5px 12px; border-radius: 20px; font-size: 12px; font-weight: 500;">Angular</span>
                             </div>
                         </div>
-                        <div class="col-sm-8" align="left">
-                            <div class="intern-panel-body">
-                                <div class="intern-box-heading" align="center">
-                                    <span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><strong><a href="https://nss.gov.in/">National Service Scheme</a></strong></span>
-                                    <br>
-                                    <div class="col-sm-6 intern-post"><strong>Volunteer</strong></div>
-                                    <div class="col-sm-6 intern-time">Aug'18 - Aug'19</div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5" style="text-align: left; padding-left: 40px;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-right: 5px solid #3aacc7;">
+                            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                <img src="img/intern/nagarro.png" alt='Nagarro' style="width: 60px; height: 60px; object-fit: contain; margin-right: 15px;">
+                                <div>
+                                    <h4 style="margin: 0; color: #333;"><a href="https://www.nagarro.com/en" style="color: #3aacc7; text-decoration: none;">Nagarro</a></h4>
+                                    <p style="margin: 5px 0; color: #666; font-weight: 600;">Trainee</p>
+                                    <span style="color: #999; font-size: 14px;">Jul 2022 - Oct 2022</span>
                                 </div>
-                                <br><br>
-                                <ul>
-                                    <li>Led awareness programs promoting child vaccination.</li>
-                                    <li>Recorded Hindi words for systems aiding the visually impaired.</li>
-                                    <li>Provided support to individuals unable to read or write for completing government forms.</li>
-                                    <li>Organized a successful blood donation camp at college.</li>
-                                </ul>
                             </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.6;">
+                                <li>Completed comprehensive training program in React.js, Node.js, Angular, and more</li>
+                                <li>Gained hands-on experience in development of various projects utilizing modern technologies</li>
+                                <li>Collaborated with experienced professionals to design, develop, and deploy projects</li>
+                            </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Experiences Grid -->
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-md-4">
+                    <div class="experience-card wow fadeInUp" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
+                        <div style="text-align: center; margin-bottom: 20px;">
+                            <img src="img/intern/cloudsufi.jpg" alt='Cloudsufi' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
+                            <h5 style="margin: 0; color: #333;"><a href="https://www.cloudsufi.com/" style="color: #3aacc7; text-decoration: none;">Cloudsufi Pvt. Ltd.</a></h5>
+                            <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Java Developer Intern</p>
+                            <span style="color: #999; font-size: 12px;">Feb 2022 - July 2022</span>
+                        </div>
+                        <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
+                            <li>Developed comprehensive test suites using JUnit and Mockito</li>
+                            <li>Implemented robust exception-handling mechanisms</li>
+                            <li>Assisted cross-functional teams in data integration solutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="experience-card wow fadeInUp" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
+                        <div style="text-align: center; margin-bottom: 20px;">
+                            <img src="img/intern/cyberflax.jpg" alt='CyberFlax' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
+                            <h5 style="margin: 0; color: #333;">CyberFlax Pvt. Ltd.</h5>
+                            <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Machine Learning Developer Intern</p>
+                            <span style="color: #999; font-size: 12px;">Jun 2021 - Aug 2021</span>
+                        </div>
+                        <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
+                            <li>Conducted data extraction from Portable Executable files</li>
+                            <li>Applied machine learning algorithms for malware classification</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="experience-card wow fadeInUp" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
+                        <div style="text-align: center; margin-bottom: 20px;">
+                            <img src="img/intern/sch.png" alt='Schneider Electric' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
+                            <h5 style="margin: 0; color: #333;"><a href="https://www.se.com/in/en/" style="color: #3aacc7; text-decoration: none;">Schneider Electric</a></h5>
+                            <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Summer Intern</p>
+                            <span style="color: #999; font-size: 12px;">July 2021 - Sept 2021</span>
+                        </div>
+                        <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
+                            <li>Leveraged Python for analysis and visualization of motor relay data</li>
+                            <li>Crafted interactive dashboards using Tableau</li>
+                            <li>Developed machine learning model for predictive supply chain analysis</li>
+                        </ul>
                     </div>
                 </div>
             </div>
