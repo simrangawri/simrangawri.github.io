@@ -152,114 +152,102 @@
     </div>
     <br>
     <div class='container-fluid' style="max-width: 1200px;">
-        <!-- Timeline Container -->
-        <div class="timeline-container" style="position: relative; padding: 20px 0;">
-            <!-- Timeline Line -->
-            <div class="timeline-line" style="position: absolute; left: 50%; top: 0; bottom: 0; width: 3px; background: linear-gradient(to bottom, #3aacc7, #1b6d85); transform: translateX(-50%); opacity: 0; transition: opacity 1s ease-in-out;"></div>
+        <!-- Experience Cards Container -->
+        <div class="experiences-container" style="position: relative;">
             
-            <!-- Experience Cards Container -->
-            <div class="experiences-container" style="position: relative;">
-                
-                <!-- Esri Experience -->
-                <div class="experience-item" data-year="2025" style="position: relative; margin-bottom: 60px; opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
-                    <div class="timeline-dot" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: #3aacc7; border-radius: 50%; transform: translateX(-50%); z-index: 2; opacity: 0; transition: opacity 0.5s ease-in-out 0.3s;"></div>
-                    <div class="row">
-                        <div class="col-md-6" style="text-align: center;">
-                            <div class="experience-card" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 5px solid #3aacc7; margin: 0 auto; max-width: 500px;">
-                                <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                                    <img src="img/intern/esri.png" alt='Esri' style="width: 60px; height: 60px; object-fit: contain; margin-right: 15px;">
-                                    <div>
-                                        <h4 style="margin: 0; color: #333;"><a href="https://www.esri.com/" style="color: #3aacc7; text-decoration: none;">Esri</a></h4>
-                                        <p style="margin: 5px 0; color: #666; font-weight: 600;">Software Engineer Intern</p>
-                                        <span style="color: #999; font-size: 14px;">May 2025 - Aug 2025</span>
-                                    </div>
+            <!-- Top Row: Esri and Nagarro Side by Side -->
+            <div class="row" style="margin-bottom: 40px;">
+                <div class="col-md-6">
+                    <div class="experience-item" data-year="2025" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 5px solid #3aacc7; height: 100%;">
+                            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                <img src="img/intern/esri.png" alt='Esri' style="width: 60px; height: 60px; object-fit: contain; margin-right: 15px;">
+                                <div>
+                                    <h4 style="margin: 0; color: #333;"><a href="https://www.esri.com/" style="color: #3aacc7; text-decoration: none;">Esri</a></h4>
+                                    <p style="margin: 5px 0; color: #666; font-weight: 600;">Software Engineer Intern</p>
+                                    <span style="color: #999; font-size: 14px;">May 2025 - Aug 2025</span>
                                 </div>
-                                <ul style="padding-left: 20px; color: #555; line-height: 1.6;">
-                                    <li>Decreased Kubernetes cluster deployment time from 2+ hours to under 10 minutes using optimized Ansible playbooks</li>
-                                    <li>Integrated CyberArk to dynamically fetch and manage TLS certs and secrets via Kubernetes Secrets</li>
-                                    <li>Optimized Kubernetes cluster architecture with HAProxy, reducing infrastructure footprint by 20%</li>
-                                    <li>Led design and implementation of automated disaster recovery system for Jenkins pipelines</li>
-                                    <li>Achieved full cluster recovery within minutes, ensuring business continuity</li>
-                                </ul>
                             </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.6;">
+                                <li>Decreased Kubernetes cluster deployment time from 2+ hours to under 10 minutes using optimized Ansible playbooks</li>
+                                <li>Integrated CyberArk to dynamically fetch and manage TLS certs and secrets via Kubernetes Secrets</li>
+                                <li>Optimized Kubernetes cluster architecture with HAProxy, reducing infrastructure footprint by 20%</li>
+                                <li>Led design and implementation of automated disaster recovery system for Jenkins pipelines</li>
+                                <li>Achieved full cluster recovery within minutes, ensuring business continuity</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-                <!-- Nagarro Experience -->
-                <div class="experience-item" data-year="2022" style="position: relative; margin-bottom: 60px; opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.2s;">
-                    <div class="timeline-dot" style="position: absolute; left: 50%; top: 30px; width: 20px; height: 20px; background: #3aacc7; border-radius: 50%; transform: translateX(-50%); z-index: 2; opacity: 0; transition: opacity 0.5s ease-in-out 0.5s;"></div>
-                    <div class="row">
-                        <div class="col-md-6" style="text-align: center;">
-                            <div class="experience-card" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 5px solid #3aacc7; margin: 0 auto; max-width: 500px;">
-                                <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                                    <img src="img/intern/nagarro.png" alt='Nagarro' style="width: 60px; height: 60px; object-fit: contain; margin-right: 15px;">
-                                    <div>
-                                        <h4 style="margin: 0; color: #333;"><a href="https://www.nagarro.com/en" style="color: #3aacc7; text-decoration: none;">Nagarro</a></h4>
-                                        <p style="margin: 5px 0; color: #666; font-weight: 600;">Trainee</p>
-                                        <span style="color: #999; font-size: 14px;">Jul 2022 - Oct 2022</span>
-                                    </div>
+                <div class="col-md-6">
+                    <div class="experience-item" data-year="2022" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.2s;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); border-top: 5px solid #3aacc7; height: 100%;">
+                            <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                                <img src="img/intern/nagarro.png" alt='Nagarro' style="width: 60px; height: 60px; object-fit: contain; margin-right: 15px;">
+                                <div>
+                                    <h4 style="margin: 0; color: #333;"><a href="https://www.nagarro.com/en" style="color: #3aacc7; text-decoration: none;">Nagarro</a></h4>
+                                    <p style="margin: 5px 0; color: #666; font-weight: 600;">Trainee</p>
+                                    <span style="color: #999; font-size: 14px;">Jul 2022 - Oct 2022</span>
                                 </div>
-                                <ul style="padding-left: 20px; color: #555; line-height: 1.6;">
-                                    <li>Completed comprehensive training program in React.js, Node.js, Angular, and more</li>
-                                    <li>Gained hands-on experience in development of various projects utilizing modern technologies</li>
-                                    <li>Collaborated with experienced professionals to design, develop, and deploy projects</li>
-                                </ul>
                             </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.6;">
+                                <li>Completed comprehensive training program in React.js, Node.js, Angular, and more</li>
+                                <li>Gained hands-on experience in development of various projects utilizing modern technologies</li>
+                                <li>Collaborated with experienced professionals to design, develop, and deploy projects</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Other Experiences Grid -->
-                <div class="row" style="margin-top: 40px;">
-                    <div class="col-md-4">
-                        <div class="experience-item" data-year="2022" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.4s;">
-                            <div class="experience-card" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
-                                <div style="text-align: center; margin-bottom: 20px;">
-                                    <img src="img/intern/cloudsufi.jpg" alt='Cloudsufi' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
-                                    <h5 style="margin: 0; color: #333;"><a href="https://www.cloudsufi.com/" style="color: #3aacc7; text-decoration: none;">Cloudsufi Pvt. Ltd.</a></h5>
-                                    <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Java Developer Intern</p>
-                                    <span style="color: #999; font-size: 12px;">Feb 2022 - July 2022</span>
-                                </div>
-                                <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
-                                    <li>Developed comprehensive test suites using JUnit and Mockito</li>
-                                    <li>Implemented robust exception-handling mechanisms</li>
-                                    <li>Assisted cross-functional teams in data integration solutions</li>
-                                </ul>
+            <!-- Bottom Row: Other Experiences Horizontally -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="experience-item" data-year="2022" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.4s;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
+                            <div style="text-align: center; margin-bottom: 20px;">
+                                <img src="img/intern/cloudsufi.jpg" alt='Cloudsufi' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
+                                <h5 style="margin: 0; color: #333;"><a href="https://www.cloudsufi.com/" style="color: #3aacc7; text-decoration: none;">Cloudsufi Pvt. Ltd.</a></h5>
+                                <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Java Developer Intern</p>
+                                <span style="color: #999; font-size: 12px;">Feb 2022 - July 2022</span>
                             </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
+                                <li>Developed comprehensive test suites using JUnit and Mockito</li>
+                                <li>Implemented robust exception-handling mechanisms</li>
+                                <li>Assisted cross-functional teams in data integration solutions</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="experience-item" data-year="2021" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.6s;">
-                            <div class="experience-card" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
-                                <div style="text-align: center; margin-bottom: 20px;">
-                                    <img src="img/intern/cyberflax.jpg" alt='CyberFlax' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
-                                    <h5 style="margin: 0; color: #333;">CyberFlax Pvt. Ltd.</h5>
-                                    <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Machine Learning Developer Intern</p>
-                                    <span style="color: #999; font-size: 12px;">Jun 2021 - Aug 2021</span>
-                                </div>
-                                <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
-                                    <li>Conducted data extraction from Portable Executable files</li>
-                                    <li>Applied machine learning algorithms for malware classification</li>
-                                </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="experience-item" data-year="2021" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.6s;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
+                            <div style="text-align: center; margin-bottom: 20px;">
+                                <img src="img/intern/cyberflax.jpg" alt='CyberFlax' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
+                                <h5 style="margin: 0; color: #333;">CyberFlax Pvt. Ltd.</h5>
+                                <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Machine Learning Developer Intern</p>
+                                <span style="color: #999; font-size: 12px;">Jun 2021 - Aug 2021</span>
                             </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
+                                <li>Conducted data extraction from Portable Executable files</li>
+                                <li>Applied machine learning algorithms for malware classification</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="experience-item" data-year="2021" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.8s;">
-                            <div class="experience-card" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
-                                <div style="text-align: center; margin-bottom: 20px;">
-                                    <img src="img/intern/sch.png" alt='Schneider Electric' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
-                                    <h5 style="margin: 0; color: #333;"><a href="https://www.se.com/in/en/" style="color: #3aacc7; text-decoration: none;">Schneider Electric</a></h5>
-                                    <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Summer Intern</p>
-                                    <span style="color: #999; font-size: 12px;">July 2021 - Sept 2021</span>
-                                </div>
-                                <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
-                                    <li>Leveraged Python for analysis and visualization of motor relay data</li>
-                                    <li>Crafted interactive dashboards using Tableau</li>
-                                    <li>Developed machine learning model for predictive supply chain analysis</li>
-                                </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="experience-item" data-year="2021" style="opacity: 0; transform: translateY(50px); transition: all 0.8s ease-out 0.8s;">
+                        <div class="experience-card" style="background: white; border-radius: 15px; padding: 25px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); margin-bottom: 30px; height: 100%;">
+                            <div style="text-align: center; margin-bottom: 20px;">
+                                <img src="img/intern/sch.png" alt='Schneider Electric' style="width: 50px; height: 50px; object-fit: contain; margin-bottom: 15px;">
+                                <h5 style="margin: 0; color: #333;"><a href="https://www.se.com/in/en/" style="color: #3aacc7; text-decoration: none;">Schneider Electric</a></h5>
+                                <p style="margin: 5px 0; color: #666; font-weight: 600; font-size: 14px;">Summer Intern</p>
+                                <span style="color: #999; font-size: 12px;">July 2021 - Sept 2021</span>
                             </div>
+                            <ul style="padding-left: 20px; color: #555; line-height: 1.5; font-size: 14px;">
+                                <li>Leveraged Python for analysis and visualization of motor relay data</li>
+                                <li>Crafted interactive dashboards using Tableau</li>
+                                <li>Developed machine learning model for predictive supply chain analysis</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -271,31 +259,17 @@
     // Experience Animation Script
     document.addEventListener('DOMContentLoaded', function() {
         const experienceSection = document.getElementById('work');
-        const timelineLine = document.querySelector('.timeline-line');
         const experienceItems = document.querySelectorAll('.experience-item');
-        const timelineDots = document.querySelectorAll('.timeline-dot');
         
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    // Animate timeline line
-                    setTimeout(() => {
-                        timelineLine.style.opacity = '1';
-                    }, 200);
-                    
                     // Animate experience cards in chronological order
                     experienceItems.forEach((item, index) => {
                         setTimeout(() => {
                             item.style.opacity = '1';
                             item.style.transform = 'translateY(0)';
                         }, 300 + (index * 200));
-                    });
-                    
-                    // Animate timeline dots
-                    timelineDots.forEach((dot, index) => {
-                        setTimeout(() => {
-                            dot.style.opacity = '1';
-                        }, 500 + (index * 300));
                     });
                 }
             });
